@@ -63,7 +63,7 @@ services:
       - '8081:8081'
     environment:
       - "SPRING_PROFILES_ACTIVE=docker"
-      - "application.data.read-limit=100"
+      - "application.data.read-limit=-1"
     networks:
       - app-tier
   wiki-sink:
