@@ -1,6 +1,6 @@
 # wiki-solution-package
 
-This Solution uses Spring Boot , Apache Kafka and Cassandra to provide solution , this package only contain docker compose file and it uses published image of necessary software.
+This Solution uses Spring Boot , Apache Kafka and Cassandra , this package only contain docker compose file and it uses published image of necessary software.
 
 Code corresponding to solution exists at following repository:
 https://github.com/pratik1788/wiki-coordinator
@@ -8,7 +8,7 @@ https://github.com/pratik1788/wiki-reader
 https://github.com/pratik1788/wiki-sink
 
 
-Architecture Diagram: https://www.edrawmax.com/online/share.html?code=9ea080fa0a0c11ec84e80a54be41f961
+Architecture Diagram: https://www.edrawmax.com/online/share.html?code=9ea080fa0a0c11ec84e80a54be41f961  ( Please refresh if it doean't load first time)
 
 ## Architecture Summary of Component
 
