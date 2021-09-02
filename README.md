@@ -29,7 +29,7 @@ To make oversolution work, cassandra is used from cloud provider , configuration
 ### Improvement Scope:
 
 1) Addition of Dead Message Queue / Table ( I am yet to add correct processing of failed message due to reasons like invalid row from file to cassandra having issue )
-2) Choice of data model for cassandra , currently data is partitioned by year month day hour and language to make queries optimal that uses language. I started with though process of having single partition for all data , but i have seen query performance issue . I need to look more into.
+2) Choice of data model for cassandra , currently data is partitioned by year month day hour and language to make queries optimal that uses language. I started with though process of having single partition for single file data to make even paritions , but i have seen query performance issue . I need to look more into.
 3) Containerize cassandra as well with solution.
 
 
