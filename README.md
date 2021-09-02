@@ -31,6 +31,7 @@ To make oversolution work, cassandra is used from cloud provider , configuration
 1) Addition of Dead Message Queue / Table ( I am yet to add correct processing of failed message due to reasons like invalid row from file to cassandra having issue )
 2) Choice of data model for cassandra , currently data is partitioned by year month day hour and language to make queries optimal that uses language. I started with though process of having single partition for single file data to make even paritions , but i have seen query performance issue . I need to look more into.
 3) Containerize cassandra as well with solution.
+4) Unit test consists of Unit and integration test to gain confidance with code. Ideally I want to seperate it out.
 
 
 ## Deployment/run steps
@@ -86,7 +87,7 @@ hour as 0
 Response will contain desired records in json format.
 
 
-## Steps to Build solution and push image to docker ( Not Needed unless we want to make code change and re build )
+## Steps to Build solution and push image to docker ( Not Needed unless we want to make code change and re build )  ( Include Unit Test execution )
 
 #### Overall Solution consists of 3 Repository listed as below
 
