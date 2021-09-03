@@ -38,7 +38,7 @@ To make oversolution work, cassandra is used from cloud provider , configuration
 ## Deployment/run steps
 
 ### Pre Requisite
-This Solution requires docker software available on system for local run. Steps to download docker Docker Installation Step
+This Solution requires docker software available on system for local run. Steps to download docker : https://docs.docker.com/get-docker/
 
 Docker Image for required component open source ( Kafka , zookeeper) developed code ( wiki-coordinator, wiki-reader, wiki-sink ) already pushed to docker repo.
 
